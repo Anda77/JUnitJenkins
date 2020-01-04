@@ -15,7 +15,7 @@
     <version>2.22.1</version>
     <configuration>
       <includes>
-        <include>AllTest.java</include>
+        <include>AppTest.java, AppTest1.java</include>
       </includes>
     </configuration>
   </plugin>
