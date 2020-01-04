@@ -23,7 +23,7 @@ public class AppTest1
      */
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+        return new TestSuite( AppTest1.class );
     }
 
     /**
