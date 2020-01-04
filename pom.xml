@@ -16,8 +16,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<build>
+<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -28,20 +27,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-site-plugin</artifactId>
 				<version>3.8.2</version>
-			<!-- 	<configuration>
-					<includes>
-						<include>**/AllTests.java</include>
-					</includes>
-				</configuration> -->
-		<!-- 		<executions>
-					<execution>
-						<id>verify</id>
-						<goals>
-							<goal>site</goal>
-						</goals>
-					</execution>
-				</executions> -->
-			</plugin>
+	</plugin>
 		</plugins>
 	</build>
 
@@ -55,6 +41,4 @@
 		</plugins>
 	</reporting>
     
-    
-  </dependencies>
-</project>
+ </project>
