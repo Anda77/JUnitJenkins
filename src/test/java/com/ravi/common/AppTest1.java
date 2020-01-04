@@ -1,36 +1,13 @@
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import static org.junit.Assert.*;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest1 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest1( String testName )
-    {
-        super( testName );
-    }
+import org.junit.Test;
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest1.class );
-    }
+import junit.framework.Assert;
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertFalse( false );
-    }
+public class AppTest1 {
+
+	@Test
+	public void test() {
+		Assert.assertTrue(true);
+	}
 }
